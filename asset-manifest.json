@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/denzy15/shopping-cart/static/css/main.4a00ec6f.css",
-    "main.js": "/denzy15/shopping-cart/static/js/main.7ff7c383.js",
-    "static/js/787.d6fe38e8.chunk.js": "/denzy15/shopping-cart/static/js/787.d6fe38e8.chunk.js",
-    "index.html": "/denzy15/shopping-cart/index.html",
-    "main.4a00ec6f.css.map": "/denzy15/shopping-cart/static/css/main.4a00ec6f.css.map",
-    "main.7ff7c383.js.map": "/denzy15/shopping-cart/static/js/main.7ff7c383.js.map",
-    "787.d6fe38e8.chunk.js.map": "/denzy15/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
+    "main.css": "/shopping-cart/static/css/main.4a00ec6f.css",
+    "main.js": "/shopping-cart/static/js/main.ca1d05d9.js",
+    "static/js/787.d6fe38e8.chunk.js": "/shopping-cart/static/js/787.d6fe38e8.chunk.js",
+    "index.html": "/shopping-cart/index.html",
+    "main.4a00ec6f.css.map": "/shopping-cart/static/css/main.4a00ec6f.css.map",
+    "main.ca1d05d9.js.map": "/shopping-cart/static/js/main.ca1d05d9.js.map",
+    "787.d6fe38e8.chunk.js.map": "/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a00ec6f.css",
-    "static/js/main.7ff7c383.js"
+    "static/js/main.ca1d05d9.js"
   ]
 }
