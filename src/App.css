@@ -33,42 +33,6 @@
   align-items: stretch;
 }
 
-.products {
-  flex: 1 1 auto;
-}
-
-.products h1 {
-  font-size: 35px;
-  text-align: center;
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.product {
-  flex: 0 1 30%;
-}
-
-.product h3 {
-  font-size: 30px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.row {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin: 30px 0px 0px 0px;
-}
-
-.product-img img {
-  width: 100%;
-  border-radius: 10px;
-}
-.product-img {
-  overflow: hidden;
-}
-
 .add-to-cart {
   padding: 5px 10px;
   border-radius: 5px;
@@ -87,26 +51,25 @@
   padding: 10px 7px;
   border-radius: 7px;
   margin: 0px 0px 20px 0px;
-
 }
 
-.btns{
+.btns {
   display: flex;
   gap: 10px;
   margin: 10px 0px;
 }
 
-.btns button{
+.btns button {
   padding: 5px;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.488);
 }
 
-.add{
+.add {
   background-color: greenyellow;
 }
 
-.remove{
+.remove {
   background-color: red;
 }
 
@@ -114,19 +77,40 @@
   font-weight: 600;
 }
 
-
-.total-price{
+.total-price {
   margin-top: 10px;
   font-size: 19px;
 }
 
-.discount{
+.discount {
   margin-top: 10px;
 }
 
-.discount-btns button:first-child{
+.discount-btns button:first-child {
   background-color: rgb(0, 255, 170);
 }
-.discount-btns button:last-child{
+.discount-btns button:last-child {
   background-color: rgb(255, 0, 115);
+}
+
+
+.products {
+  flex: 1 1 auto;
+}
+
+
+.products-form label{
+  display: block;
+  margin: 10px 0;
+}
+
+.products-form h1{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.products-form button{
+  padding: 7px 8px;
+  border-radius: 6px;
+  background-color: lightcoral;
 }

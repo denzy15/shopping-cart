@@ -1,15 +1,17 @@
-import { useState } from "react";
+/*import { useState } from "react";
 function useForceUpdate(){
     const [value, setValue] = useState(0);
     return () => setValue(value => value + 1); 
 }
 
-
-
 const Cart = (props) => {
+ 
+
+  const [discount, setDiscount] = useState({})
+
+
  const forceUpdate = useForceUpdate();
 
-  let discount = props.discount;
   let items = props.cartItems;
   const itemsPrice = items.reduce((a, b) => a + b.price * b.num, 0);
   const discountItemsPrice = itemsPrice - itemsPrice * (discount.value / 100);
@@ -79,3 +81,4 @@ const Cart = (props) => {
 };
 
 export default Cart;
+*/

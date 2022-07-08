@@ -1,17 +1,16 @@
-import Product from "./Product";
+/*
 
 const Products = (props) => {
-	let products = props.products;
 	return (
 		<article className='products'>
-			<h1>Товары</h1>
-			<div className="row">
-				{products.map((p) => {
-					return <Product product={p} key = {p.id} onAdd={props.onAdd} />
-				})}
-			</div>	
+			<form action="#" className="products-form">
+				<label><input type='text' value=''/>Введите название товара</label>
+				<label><input type='number' value=''/>Введите ID товара</label>
+				<label><input type='number' value=''/>Введите цену</label>
+				<button onClick={props.onAdd}>Добавить товар</button>
+			</form>	
 		</article>
 	)
 }
 
-export default Products;
+export default Products;*/
